@@ -1,0 +1,56 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+Ask the user for the first number
+Ask the user for a second number
+The program will add these two numbers together
+Tell the user what the result is
+
+Actual code:
+
+a = input("Please provide a whole number for a: ")
+
+b = input("Please provide a whole number for b: ")
+
+sum = int(a) + int(b)
+
+print ("The sum of these two numbers are: ", sum)
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Ask the use to input a whole number
+Have the program divide the number by 2 and give a result
+If the number is able to be divided by 2 with no remainder the result is even
+If the number has remainder or is unable to be divided by 2 the number is odd
+
+Actual code:
+
+num = int (input ("Is the number even or odd? Find out! Enter a whole number here: "))
+if num % 2 == 0:
+	print ("The number is even")
+else:
+	print ("The number is odd")
+
+
+// Exercise 3: 
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+
+Ask the user to input 5 whole numbers
+the code will divide the numbers up into seperate values represented by letters
+the code will add the numbers together, then divide the sum of those by 5
+Tell the user if the result is even or odd
+
+Actual code:
+
+print("Let's find the average of 5 numbers!")
+a, b, c, d, e =input("Please enter 5 whole numbers seperated by a space ").split()
+sum = int(a)+int(b)+int(c)+int(d)+int(e)
+sum/5
+print("The average of these 5 numbers is: ", sum)
